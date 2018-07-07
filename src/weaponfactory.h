@@ -6,6 +6,8 @@ class WeaponFactory
 {
 public:
     WeaponFactory();
+private:
+    static int production = 0;
 };
 
 #endif // WEAPONFACTORY_H
